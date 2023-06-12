@@ -29,11 +29,10 @@
         "audios"
       ]
     },
-    "lng": {
-      "type": "float"
-    },
-    "lat": {
-      "type": "float"
+    "origin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "point.coords"
     }
   }
 }
