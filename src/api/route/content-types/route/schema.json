@@ -38,7 +38,7 @@
       "type": "decimal"
     },
     "duration": {
-      "type": "integer"
+      "type": "decimal"
     }
   }
 }
