@@ -39,6 +39,15 @@
     },
     "duration": {
       "type": "decimal"
+    },
+    "moderated": {
+      "type": "boolean",
+      "default": false
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
     }
   }
 }
